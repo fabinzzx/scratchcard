@@ -63,10 +63,14 @@ export default function Home() {
               </a>
             </div>
             
-            <p className="text-xs sm:text-sm text-gray-400 mt-2 max-w-md mx-auto leading-relaxed border-t border-white/10 pt-4 w-full">
-              📍 <strong className="text-karate-gold">Redemption Location:</strong> Pattam Dojo, Cherukadappuram <br />
-              📅 <strong className="text-karate-gold">Validity:</strong> Offer valid till 10/06/2026 (June 10)
-            </p>
+            <div className="mt-8 px-6 py-4 rounded-2xl bg-karate-red/10 border border-karate-red/30 shadow-[0_0_15px_rgba(230,0,0,0.15)] max-w-lg mx-auto text-center w-full">
+              <p className="text-base text-gray-200 leading-relaxed">
+                📍 <strong className="text-karate-gold">Redemption Location:</strong> Pattam Dojo, Cherukadappuram
+              </p>
+              <p className="text-base text-gray-200 mt-2 leading-relaxed">
+                📅 <strong className="text-karate-gold">Offer Validity:</strong> Valid till <span className="font-extrabold text-white underline decoration-karate-gold underline-offset-4">10/06/2026</span> (June 10)
+              </p>
+            </div>
           </motion.div>
         </div>
 
