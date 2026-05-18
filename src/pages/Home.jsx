@@ -36,7 +36,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed"
           >
-            Begin your martial arts journey with Okinavan Shito Ryu Karate Academy. Win up to <strong className="text-white">100% OFF</strong> or <strong className="text-white">3 Months Free</strong> on your admission!
+            Begin your martial arts journey with Okinavan Shito Ryu Karate Academy. Win up to <strong className="text-white">100% OFF on Admission & 1st Month Fees</strong> or <strong className="text-white">3 Months Free</strong>!
           </motion.p>
           
           <motion.div
