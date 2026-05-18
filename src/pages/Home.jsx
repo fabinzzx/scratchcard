@@ -43,15 +43,30 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex flex-col gap-6 items-center"
           >
-            <Link 
-              to="/login"
-              className="px-10 py-4 bg-gradient-to-r from-karate-red to-red-700 text-white font-bold text-lg rounded-full shadow-[0_0_20px_rgba(230,0,0,0.4)] hover:scale-105 hover:shadow-[0_0_30px_rgba(230,0,0,0.6)] transition-all duration-300 flex items-center gap-2"
-            >
-              <Gift size={24} />
-              Play Now & Win
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full max-w-lg">
+              <Link 
+                to="/login"
+                className="w-full sm:w-auto px-10 py-4 bg-gradient-to-r from-karate-red to-red-700 text-white font-bold text-lg rounded-full shadow-[0_0_20px_rgba(230,0,0,0.4)] hover:scale-105 hover:shadow-[0_0_30px_rgba(230,0,0,0.6)] transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                <Gift size={24} />
+                Play Now & Win
+              </Link>
+              <a 
+                href="https://www.okinavanshitoryukarate.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto px-10 py-4 bg-white/5 border border-white/20 hover:border-white/40 text-white font-bold text-lg rounded-full hover:bg-white/10 transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                Visit Website
+              </a>
+            </div>
+            
+            <p className="text-xs sm:text-sm text-gray-400 mt-2 max-w-md mx-auto leading-relaxed border-t border-white/10 pt-4 w-full">
+              📍 <strong className="text-karate-gold">Redemption Location:</strong> Pattam Dojo, Cherukadappuram <br />
+              📅 <strong className="text-karate-gold">Validity:</strong> Offer valid till 10/06/2026 (June 10)
+            </p>
           </motion.div>
         </div>
 
