@@ -79,13 +79,15 @@ export const isPhoneUsedByAnotherUser = async (uid, phone) => {
 
 // Rewards logic
 const rewards = [
-  { label: "10% OFF", value: "10%", type: "discount", weight: 30, discount: 0.1 },
-  { label: "20% OFF", value: "20%", type: "discount", weight: 25, discount: 0.2 },
-  { label: "30% OFF", value: "30%", type: "discount", weight: 15, discount: 0.3 },
-  { label: "40% OFF", value: "40%", type: "discount", weight: 10, discount: 0.4 },
-  { label: "50% OFF", value: "50%", type: "discount", weight: 5, discount: 0.5 },
-  { label: "3 Months Free", value: "3_months_free", type: "special", weight: 5 },
-  { label: "Better Luck Next Time", value: "none", type: "none", weight: 10 },
+  { label: "40% OFF", value: "40%", type: "discount", weight: 45, discount: 0.4 },
+  { label: "50% OFF", value: "50%", type: "discount", weight: 20, discount: 0.5 },
+  { label: "60% OFF", value: "60%", type: "discount", weight: 12, discount: 0.6 },
+  { label: "70% OFF", value: "70%", type: "discount", weight: 8, discount: 0.7 },
+  { label: "80% OFF", value: "80%", type: "discount", weight: 5, discount: 0.8 },
+  { label: "90% OFF", value: "90%", type: "discount", weight: 3, discount: 0.9 },
+  { label: "100% OFF", value: "100%", type: "discount", weight: 1, discount: 1.0 },
+  { label: "3 Months Free", value: "3_months_free", type: "special", weight: 2 },
+  { label: "Better Luck Next Time", value: "none", type: "none", weight: 4 },
 ];
 
 export const generateReward = () => {
