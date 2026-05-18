@@ -79,7 +79,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24"
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-24 max-w-4xl mx-auto"
         >
           <div className="glass-card p-8 text-center group hover:bg-white/10 transition-colors">
             <div className="w-16 h-16 mx-auto bg-karate-red/20 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -95,14 +95,6 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-bold mb-3">All Ages Welcome</h3>
             <p className="text-gray-400">Programs designed for kids, teens, and adults of all skill levels.</p>
-          </div>
-          
-          <div className="glass-card p-8 text-center group hover:bg-white/10 transition-colors">
-            <div className="w-16 h-16 mx-auto bg-blue-500/20 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-              <MapPin className="text-blue-500" size={32} />
-            </div>
-            <h3 className="text-xl font-bold mb-3">Multiple Dojos</h3>
-            <p className="text-gray-400">Convenient locations fully equipped for professional training.</p>
           </div>
         </motion.div>
       </div>
