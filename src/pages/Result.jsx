@@ -91,7 +91,7 @@ export default function Result() {
               <h3 className="text-lg font-bold text-gray-400 border-b border-white/10 pb-2">Fee Structure Breakdown</h3>
               
               <div className="flex justify-between items-center bg-black/30 p-3 rounded-lg">
-                <span className="text-gray-300">Admission Fee</span>
+                <span className="text-gray-300">Admission & 1st Month Fees</span>
                 <div className="text-right">
                   {isWinner && fees.originalAdmission !== fees.admission && (
                     <span className="text-red-400 line-through text-xs mr-2">₹{fees.originalAdmission}</span>
